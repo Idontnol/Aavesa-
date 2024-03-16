@@ -1,0 +1,20 @@
+.sliderMain{
+    height:44vh;
+}
+.carouselImage{
+    height:170px;
+    width:90%;
+    object-fit:cover;
+    border-radius: 5px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.sliderMain>h1 {
+    text-align: center; 
+    margin-bottom: 20px;
+  }
+  
+.para {
+    text-align: center; 
+    font-weight: bold;
+    margin-top: 10px;
+  }

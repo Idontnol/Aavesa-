@@ -1,0 +1,36 @@
+.HeroContainer{
+    display: flex;
+    flex-direction: row;
+    gap:1%;
+    padding:10%;
+}
+.HeroDescription{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:44%;
+}
+.heroHeaderPara{
+    font-size: 2.2rem; 
+  margin-bottom: 15px;
+}
+.heroHeaderSpecial{
+    font-weight: bold;
+}
+.enrollNowHero {
+    height: 40px; 
+    width: 150px; 
+    background-color: #007bff; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.heroImage {
+    width: 50%; 
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }

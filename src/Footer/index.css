@@ -1,0 +1,34 @@
+.footerSection{
+    display: flex;
+    flex-direction: column;
+    height:30vh;
+    justify-content: center;
+}
+.footerIcons{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+.icon{
+    transform:scale(3);
+}
+.footerIcons .icon:nth-child(1) { 
+    color: #3b5998;
+  }
+  
+  .footerIcons .icon:nth-child(2) { 
+    color: linear-gradient(45deg, #f09433 0%, #ec4899 50%);
+  }
+  
+  .footerIcons .icon:nth-child(3) { 
+    color: #1da1f2;
+  }
+  
+  .footerIcons .icon:nth-child(4) { 
+    color: #c4302b;
+  }
+  
+  .footerIcons .icon:nth-child(5) { 
+    color: #0077b5;
+  }
+  
